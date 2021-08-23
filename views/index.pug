@@ -1,0 +1,54 @@
+doctype html
+html
+    head 
+        title Arijit Dance Academy
+        style
+            include ../static/style.css
+    body
+        nav#navbar
+            ul
+                div#logo
+                    img(src="/static/img/logo.png")
+                    | ADA 
+                li #[a(href = "/") Home]
+                li #[a(href = "/") About]
+                li #[a(href = "/") Services]
+                li #[a(href = "/") Class Info]
+                li #[a(href = "/") Contact Us]
+        section#introSection
+            div Welcome to Arijt's Dance Academy
+            div.small Eat Sleep Dance Repeat
+        section#missionSection
+            h3 Our Missions
+            div.card
+                h5 Dance Perfection
+                div.card-box
+                    div.card-img
+                        img(src="/static/img/1_.png")
+                    div.card-content
+                        p Dance with perfection and get a chance in the dance industry
+            div.card
+                h5 Dance the way you like
+                div.card-box
+                    div.card-img
+                        img(src="/static/img/2_.png")
+                    div.card-content
+                        p Learn and grow , and dance the way you like in your own style
+            div.card
+                h5 Expert Teaching
+                div.card-box
+                    div.card-img
+                        img(src="/static/img/3_.png")
+                    div.card-content
+                        p Learn form our best teachers and get sure success in dancing world
+        section#sponsorsSection
+            h3 Our Clients
+            div#sponsors
+                img(src="/static/img/1.png", alt="Sponsor Image" class="spimage")
+                img(src="/static/img/2.png", alt="Sponsor Image" class="spimage")
+                img(src="/static/img/4.png", alt="Sponsor Image" class="spimage")
+                img(src="/static/img/3.png", alt="Sponsor Image" class="spimage")
+        footer#footer
+            |Copyright © 2021 ArijitDanceAcademy.com | All rights reserved
+        script
+            include ../static/index.js

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+h2{
+    text-align: center;
+    margin: 8px 0;
+    font-family: 'Special Elite',cursive;
+    font-size: 28px;
+    margin-top: 38px;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.myInput{
+    text-align: center;
+    margin: 8px;
+    padding: 6px;
+    width: 40%;
+    border: 2px solid rgb(94, 67, 67);
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+}
+.btn{
+    padding: 6px 30px;
+    margin: 14px;
+    background-color: rgb(231, 76, 76);
+    border: 2px solid rgb(82, 80, 80);
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+.container{
+    min-height: 77.5vh;
+}

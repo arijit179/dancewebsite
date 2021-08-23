@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#logo{
+    display: flex;
+    color: white;
+    margin-right: 40px;
+    align-items: center;
+}
+#logo img{
+    height: 35px;
+    filter: invert(1);
+}
+#navbar{
+    background-color: #c41f1fcf;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.3rem;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#navbar li{
+    margin: 14px;
+    list-style: none;
+    padding: 4px 4px;    
+    
+}
+#navbar li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#navbar li a:hover{
+    color: black;
+}
+#introSection{
+    padding-bottom: 40px;
+    height: 341px;
+    background: center / cover no-repeat url('/static/pic_section_1.jpg');
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 31px;
+    opacity: 0.8;
+    font-family: 'Special Elite',cursive;
+}
+#introSection div.small{
+    font-size: 27px;
+    padding: 7px;
+}
+#missionSection{
+    height: 248px;
+    width: 73%;
+    margin: auto;
+    justify-content: center;
+}
+#missionSection h3{
+    font-size: 22px;
+    display: flex;
+    margin: 9px;
+    margin-top: 24px;
+    justify-content: center;
+    font-family: 'Special Elite' , cursive;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 11px;
+    display: inline-block;
+    width: 29%;
+    height: 71%;
+    margin: 7px 22px;
+    color: black;
+    font-family: 'Architects Daughter', cursive;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 92px;
+    padding: 0 14px;
+    margin: 3px 0px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content p {
+    font-size: 16px;
+    /* font-family: 'Architects Daughter', cursive; */
+    font-family: 'Special Elite' , cursive;
+
+}
+h5{
+    text-align: center;
+    margin: 12px;
+    font-size: 17px;
+
+}
+#sponsorsSection{
+    height: 300px;
+    background-color: #e84daf36;
+    padding-top: 14px;
+}
+#sponsorsSection h3{
+    font-size: 27px;
+    display: flex;
+    margin-bottom: 19px;
+    justify-content: center;
+    font-family: 'Architects Daughter', cursive;
+}
+#sponsors{
+    display: flex;
+    justify-content: center;
+
+}
+#sponsors .spimage{
+    height: 160px;
+    padding: 12px;
+}
+    #footer{
+    display: flex;
+    color: white;
+    height: 50px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    font-family: 'Architects Daughter', cursive;
+}
